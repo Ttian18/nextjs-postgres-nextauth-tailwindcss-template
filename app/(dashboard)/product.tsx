@@ -21,7 +21,8 @@ export function Product({ product }: { product: SelectProduct }) {
           alt="Product image"
           className="aspect-square rounded-md object-cover"
           height="64"
-          src={product.imageUrl}
+          // src={product.imageUrl}
+          src="https://spotpet.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fm5ehn3s5t7ec%2Fwp-image-199674%2Fbab418950675efd15ffeb714facd196b%2FDachshund.jpeg&w=2048&q=75"
           width="64"
         />
       </TableCell>
