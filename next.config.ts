@@ -1,16 +1,26 @@
-export default {
+module.exports = {
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'avatars.githubusercontent.com',
-        search: ''
+        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: '*.public.blob.vercel-storage.com',
-        search: ''
-      }
-    ]
-  }
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'spotpet.com',
+        pathname: '/_next/image',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.ctfassets.net',
+        pathname: '/**',
+      },
+    ],
+  },
 };
